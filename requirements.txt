@@ -1,0 +1,26 @@
+# RRWIT public analysis dependencies
+#
+# This file lists direct dependencies used by the public scripts rather than
+# reproducing the full machine-specific package freeze from the original HPC
+# environment. Transitive CUDA/runtime packages are resolved by PyTorch/pip.
+#
+# Versions explicitly preserved from the archived RRWIT environment:
+numpy==2.1.3
+opencv-python-headless==4.10.0.84
+pandas==2.2.3
+Pillow==12.2.0
+PyYAML==6.0.2
+scipy==1.14.1
+torch==2.5.1
+torchvision==0.20.1
+ultralytics==8.3.28
+ultralytics-thop==2.0.11
+
+# Direct dependencies used by the final public benchmark/deployment/XAI code.
+# Exact versions were not recorded in the supplied archived environment export,
+# so they are intentionally not pinned here.
+effdet
+grad-cam
+onnx
+onnxruntime
+pycocotools
