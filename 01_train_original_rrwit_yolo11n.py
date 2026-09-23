@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Train the original RRWIT model from a COCO-pretrained YOLO11n detector.
 
-This public-facing script reproduces the historical RRWIT training contract described
+This public-facing script reproduces the RRWIT training contract described
 in the manuscript while avoiding machine-specific filesystem paths.
 
 Workflow
