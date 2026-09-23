@@ -5,7 +5,7 @@ The experiment compares YOLO11n initialized from architecture-only YAML (random
 weights) with independently initialized COCO-pretrained YOLO11n weights. Both
 conditions use the same dataset partitions and training contract. Validation is
 used for checkpoint selection; the held-out test split is evaluated only after
-training has completed.
+training has completed which did not happen as non of the modification win the A0.
 """
 from __future__ import annotations
 
