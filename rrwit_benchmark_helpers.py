@@ -3,9 +3,8 @@
 
 This module consolidates the public portions of the original dataset-loader,
 architecture-construction, pretrained-weight-transfer, and optimizer helpers used
-by the RRWIT benchmark. It intentionally excludes internal preflight reporting,
-release-freeze logic, Slurm metadata, machine-specific paths, and the RT-DETR
-development branch that was not retained in the final manuscript benchmark.
+by the RRWIT benchmark. We intentionally excludes internal preflight reporting,
+release-freeze logic, Slurm metadata, and machine-specific paths.
 
 The final public benchmark contains exactly eight detector configurations:
 YOLOv5nu, YOLOv8n, RRWIT/YOLO11n, YOLO12n, YOLO26n, SSDLite320
