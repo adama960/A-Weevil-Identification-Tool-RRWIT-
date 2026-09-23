@@ -3,8 +3,7 @@
 
 This public module retains the scientific training/evaluation logic used by the
 final RRWIT benchmark while removing project-specific filesystem paths, Slurm
-controls, release-freeze machinery, hash-pinned internal infrastructure, and the
-RT-DETR branch that was not retained in the final manuscript benchmark.
+controls, release-freeze machinery, and hash-pinned internal infrastructure.
 
 The benchmark contains exactly eight detector configurations:
     YOLOv5nu, YOLOv8n, RRWIT/YOLO11n, YOLO12n, YOLO26n,
