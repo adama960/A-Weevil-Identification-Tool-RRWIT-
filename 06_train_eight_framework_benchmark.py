@@ -2,8 +2,7 @@
 """Run one task from the final eight-framework, three-seed RRWIT benchmark.
 
 The final benchmark contains 24 model-seed combinations: eight retained detector
-configurations trained independently with seeds 42, 123, and 2025. RT-DETR is
-intentionally excluded because it was not retained in the final manuscript benchmark.
+configurations trained independently with seeds 42, 123, and 2025.
 
 This driver consumes a public JSON task configuration and the cleaned RRWIT training
 adapter. Dataset, checkpoint, and output paths are caller supplied; the bundled helper module
