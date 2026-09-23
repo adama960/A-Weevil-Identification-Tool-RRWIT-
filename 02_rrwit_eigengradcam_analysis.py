@@ -17,8 +17,6 @@ The script performs two connected analyses:
    - attribution localization is quantified relative to ground-truth and
      predicted bounding boxes.
 
-This public script intentionally excludes the earlier exploratory EigenCAM,
-Grad-CAM++, occlusion, and plotting workflows.
 """
 
 from __future__ import annotations
