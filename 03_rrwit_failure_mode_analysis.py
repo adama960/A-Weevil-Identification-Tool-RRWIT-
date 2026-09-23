@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Summarize the final RRWIT failure modes from the frozen test audit.
 
-This public-facing analysis uses the final manuscript failure taxonomy:
-
 - Correct: species correct and localization IoU >= 0.50
 - Misclassified: localized at IoU >= 0.50 but species incorrect
 - Localization failure: a detection exists but selected IoU < 0.50
@@ -10,7 +8,6 @@ This public-facing analysis uses the final manuscript failure taxonomy:
 
 Optional EigenGradCAM results can be merged for diagnostic summaries of attribution
 localization by prediction status and object size. The superseded multi-method
-EigenCAM/Grad-CAM++/occlusion failure taxonomy is intentionally not used here.
 """
 
 from __future__ import annotations
